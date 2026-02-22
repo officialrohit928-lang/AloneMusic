@@ -58,7 +58,7 @@ async def init():
         pass
     await Alone.decorators()
     LOGGER("AloneMusic").info(
-        "ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ, ɴᴏᴡ ɢɪʙ ʏᴏᴜʀ ɢɪʀʟғʀɪᴇɴᴅ ᴄʜᴜᴛ ɪɴ @TheAloneTeam"
+        "ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ"
     )
     await idle()
     await app.stop()
