@@ -86,19 +86,19 @@ async def show_bot_info(c: app, q: CallbackQuery):
 @languageCB
 async def support(client, CallbackQuery, _):
     await CallbackQuery.edit_message_text(
-        text="ʜᴇʀᴇ ᴀʀᴇ ꜱᴏᴍᴇ ɪᴍᴘᴏʀᴛᴀɴᴛ ʟɪɴᴋꜱ.",
+        text="👀 ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ!",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="ᴅᴇᴠs", user_id=config.OWNER_ID),
+                    InlineKeyboardButton(text="𝐃єᴠєʟᴏᴘєʀ 🎀", user_id=config.OWNER_ID),
                 ],
                 [
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT),
-                    InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 🪷", url=config.SUPPORT_CHAT),
+                    InlineKeyboardButton(text="𝐂ʜᴀɴɴᴇʟ 🌺", url=config.SUPPORT_CHANNEL),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="ʙᴀᴄᴋ", callback_data="settingsback_helper"
+                        text="𝐆ᴏ 𝐁ᴀᴄᴋ", callback_data="settingsback_helper"
                     )
                 ],
             ]
